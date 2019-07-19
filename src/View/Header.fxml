@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="1000.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HeaderController">
+  <children>
+    <HBox prefHeight="34.0" prefWidth="932.0" style="-fx-background-color: C2C2C2;">
+      <children>
+        <Label text="Besplatna dostava za sve narudzbine" />
+      </children>
+    </HBox>
+    <GridPane prefHeight="101.0" prefWidth="842.0" style="-fx-background-color: #000000;">
+      <children>
+        <HBox alignment="CENTER_LEFT" prefHeight="79.0" prefWidth="380.0" spacing="10.0" GridPane.hgrow="SOMETIMES">
+          <children>
+            <MenuButton mnemonicParsing="false" style="-fx-background-color: #000000;" text="MUSKARCI" textFill="WHITE">
+              <font>
+                <Font name="System Bold" size="14.0" fx:id="x1" />
+              </font>
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#muskeJaknePritisnut" text="Jakne" />
+                <MenuItem mnemonicParsing="false" onAction="#muskeDuksericePritisnut" text="Dukserice" />
+                <MenuItem mnemonicParsing="false" onAction="#muskeMajicePritisnut" text="Majice" />
+                <MenuItem mnemonicParsing="false" onAction="#muskePantalonePritisnut" text="Pantalone" />
+                <MenuItem mnemonicParsing="false" onAction="#muskePatikePritisnut" text="Patike" />
+              </items>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </MenuButton>
+            <MenuButton font="$x1" mnemonicParsing="false" style="-fx-background-color: #000000;" text="ZENE" textFill="WHITE">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </MenuButton>
+            <MenuButton font="$x1" mnemonicParsing="false" prefHeight="30.0" prefWidth="114.0" style="-fx-background-color: #000000;" text="BRENDOVI" textFill="WHITE">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#stisnuoStone" text="Stone Island" />
+                <MenuItem mnemonicParsing="false" onAction="#stisnuoStussy" text="Stussy" />
+                <MenuItem mnemonicParsing="false" onAction="#stisnuoPalm" text="Palm Angels" />
+                <MenuItem mnemonicParsing="false" onAction="#stisnuoSaint" text="Saint Laurent" />
+                <MenuItem mnemonicParsing="false" onAction="#stisnuoMaison" text="Maison Margiela" />
+                <MenuItem mnemonicParsing="false" onAction="#stisnuoNike" text="Nike" />
+              </items>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </MenuButton>
+          </children>
+          <GridPane.margin>
+            <Insets left="10.0" />
+          </GridPane.margin>
+        </HBox>
+        <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="3.0" GridPane.columnIndex="2">
+          <children>
+            <TextField fx:id="searchBar" />
+            <Button fx:id="lupa" mnemonicParsing="false" onAction="#traziPritisnut" prefHeight="25.0" prefWidth="33.0" style="-fx-background-color: #ffa500; -fx-padding: 0;" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+          </children>
+          <padding>
+            <Insets left="20.0" />
+          </padding>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="3">
+          <children>
+            <ImageView id="slika1" fitHeight="35.0" fitWidth="40.0" onMouseClicked="#nalogPritisnut" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../slike/nalog.png" />
+              </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="40.0" onMouseClicked="#listaZeljaPritisnuta" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../slike/srce.png" />
+              </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </ImageView>
+            <ImageView fitHeight="35.0" fitWidth="40.0" onMouseClicked="#korpaPritisnuta" pickOnBounds="true" preserveRatio="true">
+              <image>
+                <Image url="@../slike/korpa.png" />
+              </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </ImageView>
+          </children>
+          <GridPane.margin>
+            <Insets left="5.0" />
+          </GridPane.margin>
+        </HBox>
+        <HBox prefHeight="79.0" prefWidth="254.0" GridPane.columnIndex="1">
+          <children>
+            <Button fx:id="logo" alignment="CENTER" contentDisplay="CENTER" depthTest="DISABLE" graphicTextGap="0.0" mnemonicParsing="false" onAction="#pritisnutLogo" prefHeight="74.0" prefWidth="281.0" style="-fx-background-color: #000000; -fx-padding: 0; -fx-label-padding: 0;" text="LOGO" textFill="ORANGE">
+              <font>
+                <Font size="48.0" />
+              </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+            </Button>
+          </children>
+        </HBox>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="383.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="443.0" minWidth="10.0" prefWidth="239.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="402.0" minWidth="10.0" prefWidth="240.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="194.0" minWidth="0.0" prefWidth="138.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</VBox>
