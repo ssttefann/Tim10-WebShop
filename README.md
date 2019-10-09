@@ -1,4 +1,4 @@
-</br>
+
 
 # Web Shop 
 Prototype of a Clothing Store made in JavaFX made for the course _Software Specification Modeling_
