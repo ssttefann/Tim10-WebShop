@@ -19,7 +19,7 @@ First up is the main window which has options to browse store items, search them
 It is not necessary for just placing orders, but to be able to track them and use all functionalities in the application, users should first Log in to their personal account or Register if they don't have one. 
 
 <center>
-<img src="Slike/login.png" />
+<img src="Slike/login.png" width="500" height="400"/>
 </center>
 
 Next up is the Catalogue scene where we have the grid of store-sold items and comboboxes to help us filter those items.
@@ -31,7 +31,7 @@ Next up is the Catalogue scene where we have the grid of store-sold items and co
 Now, we can choose to see detailed view of any of these items by clicking on them:
 
 <center>
-<img src="Slike/prduct.png" width="500" height="400" />
+<img src="Slike/product.png" width="500" height="400" />
 </center>
 
 Here we can see differenet pictures, as well as other similar products, and choose size and add the item to the cart or the wish list.
