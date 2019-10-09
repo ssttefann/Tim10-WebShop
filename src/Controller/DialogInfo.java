@@ -1,4 +1,4 @@
-package Dialog;
+package Controller;
 
 import java.util.ArrayList;
 import java.util.Optional;

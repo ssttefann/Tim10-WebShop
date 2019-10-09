@@ -3,7 +3,6 @@ package Controller;
 import java.net.URL;
 import java.util.*;
 
-import Dialog.DialogInfo;
 import Model.Korpa;
 import Model.Kupac;
 import Model.Narudzbina;
