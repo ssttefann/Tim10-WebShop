@@ -22,7 +22,7 @@ It is not necessary for just placing orders, but to be able to track them and us
 <img src="https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.15752-9/72550990_475398676395949_476497763605938176_n.png?_nc_cat=108&_nc_oc=AQnAPNtd7D0rZmm2QlF2vASgX8odiIhZtwL3tT2c4Yb5-AtN0pzwL9NsLl02RkN84lg&_nc_ht=scontent.fbeg1-1.fna&oh=4b66b5e211480984de1a8bcfc84bc583&oe=5E1AA898" width="500" height="400" />
 </center>
 
-Next up is the Catalogue scene where we have the grid of store-sold items and comboboxes to help us filter those items, as well as the previous toolbar.
+Next up is the Catalogue scene where we have the grid of store-sold items and comboboxes to help us filter those items.
 
 <center>
 <img src="https://scontent.fbeg1-1.fna.fbcdn.net/v/t1.15752-9/71802148_1171544066367549_4775069022498586624_n.png?_nc_cat=105&_nc_oc=AQniEe5UYkp2g3KVVoEK8nszfF-5gD7VsO3mwtHFiLx8Cf0Fz1TjflziJ4CKgD8b3sI&_nc_ht=scontent.fbeg1-1.fna&oh=374af4490a9c26c2847807ac23f999a4&oe=5E2A8EA6" width="500" height="400" />
