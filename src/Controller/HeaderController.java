@@ -19,12 +19,10 @@ public class HeaderController implements Initializable {
     @FXML
     private TextField searchBar;
 
-
     /** Korisnik pritisnuo LOGO*/
     public void pritisnutLogo() {
 
         try {
-
             FXMLLoader loader = new FXMLLoader(getClass().getResource("..\\View\\glavni.fxml"));
             Parent root = (Parent) loader.load();
 
@@ -116,23 +114,6 @@ public class HeaderController implements Initializable {
             ex.printStackTrace();
         }
 
-    }
-
-
-    public void izmenaNaloga() {
-        // SAMO DA PROBAM
-
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("..\\View\\IzmenaNaloga.fxml"));
-            Parent root = (Parent) loader.load();
-
-            IzmenaNalogaController pc = loader.getController();
-
-            Main.scene.setRoot(root);
-
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
     }
 
 
