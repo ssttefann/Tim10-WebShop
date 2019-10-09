@@ -25,13 +25,13 @@ It is not necessary for just placing orders, but to be able to track them and us
 Next up is the Catalogue scene where we have the grid of store-sold items and comboboxes to help us filter those items.
 
 <center>
-<img src="Slike/calatogue.png" width="500" height="400" />
+<img src="Slike/catalogue.png" width="500" height="400" />
 </center>
 
 Now, we can choose to see detailed view of any of these items by clicking on them:
 
 <center>
-<img src="Slike/product.png" width="500" height="400" />
+<img src="Slike/item.png" width="500" height="400" />
 </center>
 
 Here we can see differenet pictures, as well as other similar products, and choose size and add the item to the cart or the wish list.
