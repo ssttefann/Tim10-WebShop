@@ -25,6 +25,7 @@ public class Main extends Application {
     // Glavna instanca WebSHop-a
     public static Webshop webshop;
 
+
     @Override
     public void start(Stage primaryStage) throws Exception {
 
