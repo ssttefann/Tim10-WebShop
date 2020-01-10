@@ -1,7 +1,7 @@
 
 
 # Web Shop 
-Prototype of a Clothing Store made in JavaFX made for the course _Software Specification Modeling_
+Prototype of a Clothing Store made in JavaFX made for the course _Software Specification and Modeling_
 
 ## Object Oriented Model
 
